@@ -1,1 +1,7 @@
-// eas.json placeholder
+"preview": {
+  "distribution": "internal",
+  "android": {
+    "buildType": "apk"
+  },
+  "yarn": true
+}
