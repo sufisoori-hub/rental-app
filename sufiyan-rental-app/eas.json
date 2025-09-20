@@ -7,15 +7,13 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      },
-      "yarn": "yarn"
+      }
     },
     "production": {
       "distribution": "store",
       "android": {
         "buildType": "app-bundle"
-      },
-      "yarn": "yarn"
+      }
     }
   }
 }
