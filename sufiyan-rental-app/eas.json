@@ -8,14 +8,14 @@
       "android": {
         "buildType": "apk"
       },
-      "yarn": true
+      "yarn": "yarn"
     },
     "production": {
       "distribution": "store",
       "android": {
         "buildType": "app-bundle"
       },
-      "yarn": true
+      "yarn": "yarn"
     }
   }
 }
