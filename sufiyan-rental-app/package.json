@@ -1,1 +1,25 @@
-// package.json placeholder
+{
+  "name": "sufiyan",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~48.0.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-web": "~0.19.20",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "expo-document-picker": "~11.1.0",
+    "expo-notifications": "~0.19.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
