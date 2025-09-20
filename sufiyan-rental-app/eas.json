@@ -1,7 +1,21 @@
-"preview": {
-  "distribution": "internal",
-  "android": {
-    "buildType": "apk"
+{
+  "cli": {
+    "version": ">= 3.0.0"
   },
-  "yarn": true
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "yarn": true
+    },
+    "production": {
+      "distribution": "store",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "yarn": true
+    }
+  }
 }
